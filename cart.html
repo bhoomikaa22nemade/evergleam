@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="cart.css">
+</head>
+  <title></title>
+</head>
+<body>
+
+  <p>✅ Your product has been added to the cart.</p>
+
+  
+
+
+  <h2>Customer Details</h2>
+  <form>
+    <label>Full Name: <input type="text" ></label><br><br>
+    <label>Email: <input type="email" ></label><br><br>
+    <label>Phone: <input type="text" ></label><br><br>
+    <label>Address: <textarea ></textarea></label><br><br>
+
+   <h2>Payment</h2>
+<div class="payment-options">
+  <label class="opt"><input type="radio" name="payment" > <span>Cash on Delivery</span></label>
+  <label class="opt"><input type="radio" name="payment"> <span>UPI</span></label>
+  <label class="opt"><input type="radio" name="payment"> <span>Card</span></label>
+</div>
+
+
+    <button type="submit" formaction="#order-placed">Buy Now</button>
+
+
+     <!-- ---------- Order placed popup----------- -->
+  <div id="order-placed" class="modal">
+    <div class="dim"></div>
+    <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="op-title">
+      <h3 id="op-title">Order Placed 🎉</h3>
+      <p>Your order has been placed successfully.</p>
+      <a href="#" class="btn-close" aria-label="Close">OK</a>
+    </div>
+  </div>
+  
+  
+
+</body>
+</html>
+
+</body>
+</html>
